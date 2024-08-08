@@ -30,7 +30,7 @@ jobs:
     name: Validate Installable Package
     runs-on: ubuntu-latest
     container:
-      image: python:3.8-bullseye
+      image: python:3.11
     defaults:
       run:
         shell: bash
